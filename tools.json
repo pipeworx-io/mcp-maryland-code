@@ -1,0 +1,31 @@
+[
+  {
+    "name": "md_code_section",
+    "description": "Get the FULL TEXT of a section of the Maryland Code — Maryland state statutes — by citation. \"Md. Code, Criminal Law 2-201\" is first degree murder. Returns the statutory text. Keyless. Use for \"what does Maryland Criminal Law 2-201 say\" or to check a Maryland statute a case relies on.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "article": {
+          "type": "string",
+          "description": "Maryland article name, e.g. \"Criminal Law\", \"Transportation\", \"Family Law\". Call md_articles for the list."
+        },
+        "section": {
+          "type": "string",
+          "description": "Section as cited, e.g. \"2-201\" or \"21-902\"."
+        }
+      },
+      "required": [
+        "article",
+        "section"
+      ]
+    }
+  },
+  {
+    "name": "md_articles",
+    "description": "List the Maryland Code articles this pack can reach. Keyless. Use before md_code_section when you know the subject but not the article name.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
