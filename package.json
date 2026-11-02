@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-maryland-code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Maryland Code — state statutes by citation.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "maryland-code",
     "gatewaySlug": "maryland-code",
-    "sourceHash": "v1-e9688f36e312709442f35dae2c48367e9a99140d6057d9dee9509eb1b84393f1",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-c3f651618db05bcd1559ca9dc94a02f34585a6ddad372afc50e3b79fe6bc7406",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
